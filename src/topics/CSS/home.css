@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    font-family: "Poppins", serif;
+    color: black;
+}
+
+#homeContent {
+    text-align: center;
+    margin: 400px 0;
+    text-shadow: 0 0 20px #ffffff80;
+    letter-spacing: 5px;
+}
+
+#homeContent h1{
+    font-size: 75px;
+}
+
+#homeContent h4{
+    font-size: 30px;
+}
+
+
+
