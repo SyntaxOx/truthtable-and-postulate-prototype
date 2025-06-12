@@ -23,7 +23,7 @@
     font-size: 20px;
     text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
     letter-spacing: 3px;
-    color: black;
+    color: #fff;
     border: none;
     background-color: transparent;
     font-family: "Poppins", serif;
@@ -31,15 +31,19 @@
 }
 
 #navbar button:hover {
-    color: rgb(94, 94, 94);
-    text-shadow: 0 0 10px rgb(94, 94, 94), 0 0 20px rgb(94, 94, 94);
+    color: red;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
 }
 
 #icons {
     font-size: 50px;
-    color: black;
+    color: white;
     width: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#icons .icon.active {
+    display: none;
 }
