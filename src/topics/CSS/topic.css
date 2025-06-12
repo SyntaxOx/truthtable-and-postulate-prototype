@@ -25,6 +25,7 @@ body {
     font-size: 50px;
     padding: 0 20px;
     margin: 50px;
+    user-select: none;
 }
 
 #inputExpression, #inputContain {
@@ -69,6 +70,7 @@ td {
     display: flex;
     gap: 50px;
     margin-bottom: 30px;
+    user-select: none;
 }
 
 #clicked {
