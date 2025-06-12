@@ -10,6 +10,7 @@ body {
     margin: 400px 0;
     text-shadow: 0 0 20px #ffffff80;
     letter-spacing: 5px;
+    user-select: none;
 }
 
 #homeContent h1{
