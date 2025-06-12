@@ -10,7 +10,7 @@ import TruthTable from './topics/TruthTable';
 
 function App() {
   return (
-    <Router>
+    <Router  basename="/truthtable-and-postulate-prototype">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/truth-table" element={<TruthTable />} />
